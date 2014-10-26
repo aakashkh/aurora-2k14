@@ -1,0 +1,70 @@
+/*--------------------------------------------------
+			SOCIAL-BOOKMARKS
+---------------------------------------------------*/
+.social-bookmarks {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.social-bookmarks li, .widget .social-bookmarks li, #footer .social-bookmarks li {
+	float: left;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	padding: 0px;
+	background-color: #ededed;
+	display: inline;
+	width: auto;
+}	
+#footer .social-bookmarks li {
+	float: left;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	padding: 0px;
+}	
+#footer.social-bookmarks li a {
+	display: block;
+	float: left;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 40px;
+	height: 40px;
+}	
+.social-bookmarks li a {
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: background-color 5s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	display: block;
+	float: left;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 40px;
+	height: 40px;
+	text-indent: -9999px;
+}	
+
+.social-bookmarks li.facebook a {
+	background: url(../images/facebook.png) no-repeat 0 0;
+}
+.social-bookmarks li.facebook a:hover {
+	background-color: #3b5998;
+}
+
+
+
+
+
+.social-bookmarks li.youtube a {
+	background: url(../images/youtube.png) no-repeat 0 0;
+}
+.social-bookmarks li.youtube a:hover {
+	background-color: #f45750;
+}
+
+.social-bookmarks li a:hover {
+	background-position: 0 -40px;
+}
